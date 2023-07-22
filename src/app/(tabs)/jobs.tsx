@@ -1,11 +1,11 @@
 import { StyleSheet } from 'react-native';
 
-import { Text, View } from '../../../src/components/Themed';
+import { Text, View } from '../../components/Themed';
 
-export default function TabTwoScreen() {
+export default function JobsScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Tab Two</Text>
+      <Text style={styles.title}>Jobs</Text>
     
     </View>
   );
